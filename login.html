@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Keerthana's System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h2>🔐 Secure Login</h2>
+    <form id="loginForm">
+      <input type="email" id="loginEmail" placeholder="Enter your email" required>
+      <div class="password-field">
+        <input type="password" id="loginPassword" placeholder="Enter your password" required>
+        <span class="toggle-password" onclick="togglePassword('loginPassword', this)">👁️</span>
+      </div>
+      <button type="submit">Sign In</button>
+      <p>New here? <a href="signup.html">Create an account</a></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
